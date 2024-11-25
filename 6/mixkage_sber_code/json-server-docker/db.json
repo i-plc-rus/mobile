@@ -1,0 +1,21 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "John Doe",
+            "notificationSettings": {
+                "sms": {
+                    "enabled": true,
+                    "number": "+123456789"
+                },
+                "push": {
+                    "enabled": true
+                },
+                "email": {
+                    "enabled": false,
+                    "address": "john.doe@example.com"
+                }
+            }
+        }
+    ]
+}
